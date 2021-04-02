@@ -1,0 +1,57 @@
+.song-item {
+    margin: 1rem 0;
+    margin-top: 5rem;
+    margin-bottom: -3rem;
+  }
+  
+  .song-item__content {
+    padding: 0;
+  }
+  
+  .song-item__info {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .song-item__image {
+    width: 100%;
+    height: 12.5rem;
+    margin-right: 1.5rem;
+  }
+  
+  .song-item__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .song-item__info h2,
+  .song-item__info h3,
+  .song-item__info p {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .song-item__actions {
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #ccc;
+  }
+  
+  .song-item__modal-content {
+    padding: 0;
+  }
+  
+  .song-item__modal-actions {
+    text-align: right;
+  }
+  
+  .song-item__actions button,
+  .song-item__actions a {
+    margin: 0.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .song-item__image {
+      height: 20rem;
+    } 
+  }
